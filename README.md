@@ -1,15 +1,15 @@
 # Website-Pemilihan
 Website Pemilihan Ketua dan Wakil ketua OSIS.
 
-Menggunakan Bahasa Pemrograman: 
+Preview: http://pilketos.kelasrpl.rf.gd/
+
+<b>Menggunakan Bahasa Pemrograman:</b>
 - HTML
 - CSS
 - JavaScript
 - PHP
 
-Preview: <a target="_blank" href="http://pilketos.kelasrpl.rf.gd/">http://pilketos.kelasrpl.rf.gd/</a>
-
-<b>Team:</b> <br>
+<b>Team:</b>
 - <a target="_blank" href="https://instagram.com/aldosaman_">Aldo Saman</a> (Coder)
 - <a target="_blank" href="https://instagram.com/ra_sixteen16">Rado Musa</a> & <a href="https://instagram.com/fzann_mbngaa">Fauzan Mbuinga</a> (Helper)
 
