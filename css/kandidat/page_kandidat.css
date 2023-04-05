@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard {
+    padding-top: 70px;
+    padding-left: 20px;
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    background-color: #033066;
+}
+.dashboard img {
+    width: 13rem;
+}
+
+.pesan-scroll {
+    width: 70%;
+    height: 35.5rem;
+    position: absolute;
+    overflow-y: scroll;
+    top: 70px;
+    left: 25%;
+    border: 2px solid grey;
+}
+
+.button-logout {
+    background-color: red;
+    color: white;
+    border: 5px solid red;
+    border-radius: 5px;
+    position: absolute;
+    top: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button-logout:hover {
+    text-decoration: none;
+    color: white;
+    border: 5px solid brown;
+    background-color: brown;
+}
+
+@media screen and (max-width: 768px) {
+    .dashboard {
+        width: 90%;
+        height: 240px;
+        left: 20px;
+        top: 70px;
+        padding-top: 20px;
+        border-radius: 20px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .dashboard img {
+        width: 11rem;
+        padding-top: 20px;
+    }
+    
+    .pesan-scroll {
+        top: 325px;
+        left: 20px;
+        width: 90%;
+        height: 55%;
+    }
+
+    .button-logout {
+        display: none;
+    }
+}

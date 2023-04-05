@@ -1,0 +1,148 @@
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#home {
+    background-image: url('../assets/img/stekmen.jpg');
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+    z-index: -1;
+    height: 100%;
+	width: 100%;
+}
+
+#home::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+#home .home {
+	text-align: center;
+}
+
+.home h3 {
+	padding-top: 200px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+}
+
+.home h3:nth-child(2) {
+	padding-top: 0px;
+}
+
+.home h4 {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+}
+
+/* KANDIDAT */
+#kandidat {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#kandidat .kand {
+	text-align: center;
+	padding-bottom: 35px;
+	font-size: 60px;
+	color: #033066;
+}
+
+#kandidat .card {
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+/* =============== */
+
+#waktu {
+	background-color: #033066;
+	color: white;
+	text-align: center;
+}
+#waktu .waktu {
+	flex-direction: column;
+}
+
+.waktu h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.waktu li {
+	display: inline-block;
+	font-size: 1.5em;
+	list-style-type: none;
+	padding: 1.5em;
+	text-transform: uppercase;
+}
+
+.waktu li span {
+	display: block;
+	font-size: 100px;
+	font-weight: 600;
+	color: rgb(255, 200, 0);
+}
+  
+
+/* =============== */
+
+.modal-body video {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 768px) {
+	.home h3 {
+		padding-top: 70%;
+		font-size: 25px;
+	}
+	.home h3:nth-child(2) {
+		font-size: 25px;
+	}
+	.home h4 {
+		font-size: 20px;
+	}
+
+	.waktu li span {
+		font-size: 40px;
+	}
+	.waktu li {
+		font-size: 10px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.home h3 {
+		padding-top: 50%;
+		font-size: 50px;
+	}
+	.home h3:nth-child(2) {
+		font-size: 45px;
+	}
+	.home h4 {
+		font-size: 35px;
+	}
+
+	.waktu li span {
+		font-size: 70px;
+	}
+	.waktu li {
+		font-size: 20px;
+	}
+}

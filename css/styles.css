@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.hamburger {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 95%;
+    height: 30px;
+    width: 27px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.hamburger i {
+    display: none;
+    position: absolute;
+    font-size: 30px;
+}
+
+/* Header */
+header {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color:#033066;
+    color: white;
+    z-index: 1;
+}
+
+header img {
+    position: absolute;
+    width: 40px;
+    margin: 5px;
+    top: 0px;
+    left: 20px;
+}
+
+header .judul {
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header .username {
+    position: absolute;
+    text-align: right;
+    padding-top: 13px;
+    left: 88%;
+    font-size: 20px;
+}
+
+header .fa-user {
+    position: absolute;
+    left: 96%;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+header .menu {
+    padding-top: 13px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #ffe100;
+    transition: all 1.0s;
+}
+/* End Of Header */
+
+nav ul {
+    position: fixed;
+    margin-top: 50px;
+    width: 250px;
+    height: 100%;
+    z-index: 1;
+    transform: translateX(-100%);
+    background-color: #033066;
+    transition: all 0.5s;
+}
+
+nav ul.slide {
+    display: block;
+    transform: translateX(0%);
+}
+
+nav ul {
+    background: #033066;
+    height: 100%;
+    width: 300px;
+    list-style: none;
+    z-index: 1;
+}
+
+nav ul li {
+    line-height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+nav ul li:nth-child(2) {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+nav ul li:nth-child(6) {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: 500;
+    display: block;
+    width: 80%;
+    transition: .4s;
+}
+
+nav ul li a:hover {
+    padding-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul h1 {
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+}
+
+nav ul h3 {
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: flex;
+        top: 12px;
+        left: 90%;
+        height: 20px;
+        width: 22px;
+    }
+    .hamburger i {
+        display: flex;
+        font-size: 25px;
+    }
+
+    /* +=+=+=+=+ */
+
+    header .judul {
+        padding-top: 16px;
+        padding-left: 50px;
+        font-size: 15px;
+    }
+
+    /* +=+=+=+=+ */
+
+    header img {
+        top: 5px;
+        left: 10px;
+        width: 30px;
+    }
+    header h1 {
+        font-size: 15px;
+        padding-top: 17px;
+        padding-left: 55px;
+    }
+    header a {
+        display: none;
+    }
+
+    /* +=+=+=+=+ */
+
+    nav ul {
+        margin-left: 45%;
+        transform: translateX(200%);
+    } 
+    nav ul.slide {
+        transform: translateX(0%);
+    }
+    
+    /* +=+=+=+=+ */
+
+    header .fa-user {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+      .hamburger {
+        display: flex;
+        top: 12px;
+        left: 90%;
+        height: 20px;
+        width: 22px;
+    }
+    .hamburger i {
+        display: flex;
+        font-size: 25px;
+    }
+
+    /* +=+=+=+=+ */
+
+    header .judul {
+        padding-top: 16px;
+        padding-left: 50px;
+        font-size: 15px;
+    }
+
+    /* +=+=+=+=+ */
+
+    header img {
+        top: 5px;
+        left: 10px;
+        width: 30px;
+    }
+    header h1 {
+        font-size: 15px;
+        padding-top: 17px;
+        padding-left: 55px;
+    }
+    header a {
+        display: none;
+    }
+
+    /* +=+=+=+=+ */
+
+    nav ul {
+        margin-left: 70%;
+        transform: translateX(200%);
+    } 
+    nav ul.slide {
+        transform: translateX(0%);
+    }
+    
+    /* +=+=+=+=+ */
+
+    header .fa-user {
+        display: none;
+    }
+}

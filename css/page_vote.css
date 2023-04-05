@@ -1,0 +1,67 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+.silpil {
+    color: #033066;
+}
+
+/* KANDIDAT */
+#kandidat {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#kandidat .card {
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.katakata {
+    width: 600px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.katakata h3 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.input-kandidat {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .katakata {
+        width: 90%;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .katakata h3 {
+        font-weight: bold;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        overflow-x: hidden;
+    }
+    .katakata {
+        width: 90%;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .katakata h3 {
+        font-weight: bold;
+        font-size: 25px;
+    }
+}

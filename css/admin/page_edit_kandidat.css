@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard ul {
+    position: fixed;
+    margin-top: 50px;
+    width: 250px;
+    height: 100%;
+    z-index: 1;
+    transform: translateX(0%);
+    background-color: #033066;
+    transition: all 0.5s;
+}
+
+.dashboard ul {
+    background: #033066;
+    height: 100%;
+    width: 250px;
+    list-style: none;
+    z-index: 1;
+}
+
+.dashboard ul li {
+    line-height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.dashboard ul li:nth-child(2) {
+    border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.dashboard ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: 500;
+    display: block;
+    width: 80%;
+    transition: .4s;
+}
+
+.dashboard ul li a:hover {
+    padding-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.dashboard ul h1 {
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+}
+
+/* ========================================================== */
+/* ========================================================== */
+/* ========================================================== */
+
+.edit_kandidat {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    width: 600px;
+}
+
+.edit_kandidat_id {
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.input_gambar, .input_video {
+    height: 45px;
+}
+
+.ketua-input, .wakil-input, .kand_user_input, .kand_pass_input {
+    width: 300px;
+    height: 30px;
+}
+
+/* ========================================================== */
+/* ========================================================== */
+/* ========================================================== */
+
+@media screen and (max-width: 768px) {
+    .dashboard {
+        display: none;
+    }
+
+    .edit_kandidat {
+        left: 15px;
+    }
+
+    .input_gambar, .input_video {
+        width: 350px;
+    }
+
+    .motto, .visimisi{
+        width: 350px;
+    }
+}
