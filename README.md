@@ -10,8 +10,8 @@ Menggunakan Bahasa Pemrograman:
 Preview: <a target="_blank" href="http://pilketos.kelasrpl.rf.gd/">http://pilketos.kelasrpl.rf.gd/</a>
 
 <b>Team:</b> <br>
-Coder: <a target="_blank" href="https://instagram.com/aldosaman_">Aldo Saman</a><br>
-Helper: <a target="_blank" href="https://instagram.com/ra_sixteen16">Rado Musa</a> & <a href="https://instagram.com/fzann_mbngaa">Fauzan Mbuinga</a>
+- <a target="_blank" href="https://instagram.com/aldosaman_">Aldo Saman</a><br> (Coder)
+- <a target="_blank" href="https://instagram.com/ra_sixteen16">Rado Musa</a> & <a href="https://instagram.com/fzann_mbngaa">Fauzan Mbuinga</a> (Helper)
 
 # Aldo Saman
 Website: www.aldosaman.rf.gd <br>
